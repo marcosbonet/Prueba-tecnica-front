@@ -6,6 +6,7 @@ import { appStore } from './feature/store/store';
 import { BrowserRouter as Router } from 'react-router-dom';
 import ReactDOM from 'react-dom/client';
 
+window.React = React;
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
 );

@@ -1,7 +1,9 @@
+import { Candidates } from './form';
+
 export function App() {
     return (
-        <>
-            <App />
-        </>
+        <div>
+            <Candidates />
+        </div>
     );
 }
